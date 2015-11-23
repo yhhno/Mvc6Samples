@@ -8,6 +8,10 @@ namespace Mvc6Samples.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// 真的都是梦
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             return View();
